@@ -7,7 +7,7 @@
 ```java
 public class AboutMe {
   public static void main(String[] args) {
-    AboutMe matoAnselmo = new AboutMe("Mateus", 15, EnumLocale.BR, Arrays.asList("Java", "Go", "Gleam"));
+    AboutMe matoAnselmo = new AboutMe("Mateus", 15, EnumLocale.BR, Arrays.asList("Java", "Go", "C#", "Gleam"));
 
     System.out.printf("Hello! I'm %s a %s year old wandering around the internet.",
                                       matoanselmo.getName(), matoanselmo.getAge());
